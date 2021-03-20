@@ -232,3 +232,17 @@ footer nav a {
     padding-bottom: 20px;  
 }
 
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.about-middle-content .middle-boxes {
+    width: 35%;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
