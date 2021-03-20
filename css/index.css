@@ -71,6 +71,36 @@ p {
     margin: 0 auto;
 }
 
+/* ===================New Header and Nav=================== */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.top-row {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.top-row nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 80%;
+}
+
+.top-row nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ===================Existing Code=================== */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +134,58 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* ===================New Box Colors=================== */
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
+}
+
+
+/* ===================Existing Code=================== */
 
 .bottom-content {
     display: flex;
@@ -144,3 +219,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ===================About Page=================== */
+
+.top-content .text-container-about {
+    width: 96%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.about-middle-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+}
+
+.about-middle-content .middle-boxes {
+    width: 45%;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-boxes img {
+    width: 100%;
+}
+
+.middle-boxes h2 {
+    margin: 10px 0;
+}
+
+.middle-boxes a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: black;
+}
+
+.about-bottom-content {
+    width: 95%;
+    margin: 0 auto 50px;
+}
+
