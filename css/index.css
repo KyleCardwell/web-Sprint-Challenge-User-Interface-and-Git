@@ -146,7 +146,7 @@ header {
     justify-content: center;
 }
 
-/* ===================Box Colors=================== */
+/* ===================New Box Colors=================== */
 
 .box1 {
     background: teal;
@@ -223,3 +223,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ===================About Page=================== */
+
+.top-content .text-container-about {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
