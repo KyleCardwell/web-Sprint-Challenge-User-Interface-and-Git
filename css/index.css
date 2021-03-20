@@ -76,11 +76,8 @@ p {
 header {
     display: flex;
     flex-direction: column;
-    /* align-items: baseline; */
     justify-content: space-between;
     width: 100%;
-    /* height: 300px; */
-    /* background-color: pink; */
     margin: 30px auto;
 }
 
@@ -88,7 +85,6 @@ header {
     display: flex;
     width: 100%;
     margin-bottom: 30px;
-    /* height: 25%; */
 }
 
 .top-row nav {
@@ -235,14 +231,36 @@ footer nav a {
 .about-middle-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 95%;
-    margin-bottom: 20px;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
 }
 
 .about-middle-content .middle-boxes {
-    width: 35%;
-    margin: 10px;
-    margin-bottom: 20px;
+    width: 45%;
+    margin-bottom: 50px;
     border-bottom: 1px dashed black;
 }
+
+.middle-boxes img {
+    width: 100%;
+}
+
+.middle-boxes h2 {
+    margin: 10px 0;
+}
+
+.middle-boxes a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.about-bottom-content {
+    width: 95%;
+    margin: 0 auto 20px;
+}
+
